@@ -49,4 +49,6 @@ def more_info(message):
     else:
         bot.reply_to(message, "Não há resultados anteriores para mostrar. Por favor, faça uma nova pesquisa usando /search.")
 
+print('RODANDO....')   
 bot.polling()
+print('ADEUS :(')
